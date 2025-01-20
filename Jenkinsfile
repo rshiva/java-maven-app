@@ -25,9 +25,6 @@ pipeline {
         }
        
         stage('deploy') {
-            script{
-                echo "Deploying ..."
-            }
             //  when{
             //     expression{
             //         BRANCH_NAME == 'master'
